@@ -11,3 +11,39 @@ nav {
   font-weight: 500;
   font-style: normal;
 }
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type:none;
+  height: 60px;
+  background-color:white;
+}
+nav ul li{
+  padding: 0 12px;
+}
+.brand img{
+  width:48px ;
+  padding: 0 8px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container{
+  min-height: 60vh;
+}
+.bottom{
+position: sticky;
+height: 100px;
+background-color: black;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#myprogessbar{
+  width: 80vw;
+  text-align: center;
+}
