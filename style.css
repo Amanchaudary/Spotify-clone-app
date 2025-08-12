@@ -33,6 +33,15 @@ nav ul li{
 }
 .container{
   min-height: 60vh;
+  background-color: black;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  margin: 23px auto ;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image:url("");
 }
 .bottom{
 position: sticky;
@@ -43,8 +52,31 @@ bottom: 0;
 display: flex;
 justify-content: center;
 align-items: center;
+flex-direction: column;
+
+}
+.icons{
+margin-top: 14px;
+}
+.icons i{
+  cursor: pointer;
 }
 #myprogessbar{
   width: 80vw;
   text-align: center;
+}
+.songitem{
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 80%;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 34px;
+}
+.songitem img{
+ margin: 0 23px;
+ width: 43px;
 }
